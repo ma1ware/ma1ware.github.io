@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ma1ware&#39;s blog ^_^</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-02-07T11:05:03.312Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Ma1ware</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>起航</title>
+    <link href="http://yoursite.com/2017/02/07/%E8%B5%B7%E8%88%AA/"/>
+    <id>http://yoursite.com/2017/02/07/起航/</id>
+    <published>2017-02-07T10:54:59.000Z</published>
+    <updated>2017-02-07T11:05:03.312Z</updated>
+    
+    <content type="html"><![CDATA[<p>##Some Memory for Life</p>
+<blockquote>
+<ul>
+<li>学习笔记</li>
+<li>心情记录&amp;随笔</li>
+<li>人生思考</li>
+</ul>
+</blockquote>
+<p>最可爱的金毛镇博<br><img src="http://img1.3lian.com/2015/a1/136/d/268.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;##Some Memory for Life&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;学习笔记&lt;/li&gt;
+&lt;li&gt;心情记录&amp;amp;随笔&lt;/li&gt;
+&lt;li&gt;人生思考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;最可爱的金毛镇博&lt;br&gt;&lt;img src
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
