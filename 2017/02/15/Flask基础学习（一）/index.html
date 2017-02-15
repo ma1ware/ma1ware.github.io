@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ma1ware&#39;s blog ^_^</title>
-  
-  <link href="/atom.xml" rel="self"/>
-  
-  <link href="http://yoursite.com/"/>
-  <updated>2017-02-15T08:39:00.695Z</updated>
-  <id>http://yoursite.com/</id>
-  
-  <author>
-    <name>Ma1ware</name>
-    
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Flask基础学习（一）</title>
-    <link href="http://yoursite.com/2017/02/15/Flask%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>http://yoursite.com/2017/02/15/Flask基础学习（一）/</id>
-    <published>2017-02-15T07:59:42.000Z</published>
-    <updated>2017-02-15T08:39:00.695Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h3><p>Flask是python开发的一套轻量级并且非常灵活的web框架，首先搭建开发环境</p>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Flask基础学习（一） · Ma1ware's blog ^_^</title><meta name="description" content="Flask基础学习（一） - Ma1ware"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="Ma1ware's blog ^_^"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/u/3846831301?refer_flag=1001030102_" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/ma1ware" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Flask基础学习（一）</h1><div class="post-info">Feb 15, 2017</div><div class="post-content"><h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="环境搭建"></a>环境搭建</h3><p>Flask是python开发的一套轻量级并且非常灵活的web框架，首先搭建开发环境</p>
 <blockquote>
 <p>安装python，在三个平台下的安装可以登录<a href="https://www.python.org/" target="_blank" rel="external">Python</a>官网选择对应的版本<br>可以安装venv来创建虚拟环境，以免造成本机python包混乱，安装可以通过pip <code>pip install virtualenv</code><br><code>venv\Scripts\activate</code> 激活环境后安装flask，<code>(venv) $ pip install flask</code></p>
 </blockquote>
@@ -30,52 +6,4 @@
 <p>然后终端运行 <code>python hello.py</code><br><img src="http://upload-images.jianshu.io/upload_images/2432729-d412ae625801f792.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="hello.py"></p>
 <p>其中上述部分代码可以修改如下达到动态路由的效果<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@app.route('/user/&lt;username&gt;')</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">user</span><span class="params">(username)</span>:</span></div><div class="line">	<span class="keyword">return</span> <span class="string">'Hello, %s'</span> % username</div></pre></td></tr></table></figure></p>
 <p><img src="http://upload-images.jianshu.io/upload_images/2432729-49988b136637a5ab.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot; title=&quot;环境搭建&quot;&gt;&lt;/a&gt;环境搭建&lt;/h3&gt;&lt;p&gt;Flask是python开发的一套轻量级并且非常灵活的web框架，首先搭建开发环境&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-    
-      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1</title>
-    <link href="http://yoursite.com/2017/02/15/1/"/>
-    <id>http://yoursite.com/2017/02/15/1/</id>
-    <published>2017-02-15T07:43:32.000Z</published>
-    <updated>2017-02-15T07:51:43.618Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="0x0001"><a href="#0x0001" class="headerlink" title="0x0001"></a>0x0001</h1><blockquote>
-<p>折腾了乱七八糟的许多博客，最后选择留在hexo+github</p>
-</blockquote>
-<p>博客内容：</p>
-<blockquote>
-<ul>
-<li>分享转载技术文章</li>
-<li>学习笔记</li>
-<li>心情笔记</li>
-<li>一些杂谈思考</li>
-</ul>
-</blockquote>
-<p>最爱的金毛镇博<br><img src="http://v1.qzone.cc/pic/201503/12/16/20/55014c68c8d12737.jpg%21600x600.jpg" alt="cute baby"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;0x0001&quot;&gt;&lt;a href=&quot;#0x0001&quot; class=&quot;headerlink&quot; title=&quot;0x0001&quot;&gt;&lt;/a&gt;0x0001&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;折腾了乱七八糟的许多博客，最后选择留在hexo+github&lt;/p&gt;
-&lt;/bloc
-    
-    </summary>
-    
-    
-  </entry>
-  
-</feed>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/02/15/1/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2017 <a href="http://yoursite.com">Ma1ware</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
