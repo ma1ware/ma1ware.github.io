@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-07T11:14:46.138Z</updated>
+  <updated>2017-02-07T12:09:07.734Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jade模板引擎</title>
+    <link href="http://yoursite.com/2017/02/07/Jade%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E/"/>
+    <id>http://yoursite.com/2017/02/07/Jade模板引擎/</id>
+    <published>2017-02-07T11:54:23.000Z</published>
+    <updated>2017-02-07T12:09:07.734Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<h2 id="jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、ruby、python、java等。"><a href="#jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、ruby、python、java等。" class="headerlink" title="jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、ruby、python、java等。"></a>jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、ruby、python、java等。</h2><p>安装jade<br> <code>npm install jade</code></p>
+<p>新建一个test.jade文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">doctype html</div><div class="line">html</div><div class="line">  head</div><div class="line">    title test</div><div class="line">  body</div><div class="line">    h1 test</div></pre></td></tr></table></figure>
+<p>然后到终端执行<code>jade -P test.jade</code>后就可以得到格式化后的test.html<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">  &lt;head&gt;</div><div class="line">    &lt;title&gt;test&lt;/title&gt;</div><div class="line">  &lt;/head&gt;</div><div class="line">  &lt;body&gt;</div><div class="line">    &lt;h1&gt;test&lt;/h1&gt;</div><div class="line">  &lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure></p>
+<p>这样可以大大加快我们的开发速度</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、ruby、python、java等。&quot;&gt;&lt;a href=&quot;#jade是一个由javascript实现的高性能的模板引擎，支持Node、php、scala、rub
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>起航</title>
